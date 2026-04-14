@@ -12,8 +12,8 @@ final Uuid _uuid = const Uuid();
 
 
 List<TaskModel>get tasks => _tasks;
-
-void addTasks({
+// walang 's' yung nasa task_input_screen
+void addTask({
   required String title, required String category, required DateTime date,
   required TimeOfDay startTime, required TimeOfDay endTime,
   required int urgency, required int importance,
